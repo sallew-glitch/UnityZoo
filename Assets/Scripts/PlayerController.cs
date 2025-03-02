@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 relativeVector;
 
-    private bool cursorLocked;
+    [HideInInspector] public bool cursorLocked;
 
     public GameObject focusPoint;
 
